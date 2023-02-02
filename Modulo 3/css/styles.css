@@ -1,0 +1,64 @@
+/*ESCRIBIR ESTILOS CON ASTERISCOS, ES COMO UN COMODING SE APLICA PARA TODOS LOS ENCABEZADOS
+
+TENER CUIDADO QUE SI EN OTRO ESTILO SE DECLARA EL MISMO VALOR, LO PISA*/
+* {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Se puede seleccionar mas de un elemento para estilkizar... se lo separa con ","  */
+p,
+span {
+    color: red;
+    width: 500px;
+}
+
+h1 {
+    border: 1px solid black;
+    /*PADDING Y MARGIN GENERALES
+    padding: 5px;
+    margin: 30px;*/
+
+    /*PADDING Y MARGIN ESPECIFICOS
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+
+    /*PADDINY Y MARGIN EN UNA LINEA        TOP RIGHT BOTTOM Y LEFT*/
+    padding: 10px 20px 15px 10px;
+    margin: 20px 15px 50px 25px;
+
+    font-weight: bold;
+    color: aqua;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+/*CSS PARA UN ID ESPECIFICO*/
+#parrafoDistinto {
+    color: turquoise;
+    font-size: 25px;
+    border: 1px solid orange;
+}
+
+/*CSS PARA UNA CLASE ESPECIFICA*/
+.estaEsMiClase {
+    color: lightblue;
+    font-weight: bold;
+}
+
+/*APLICAR CSS A TODOS LOS ELEMENTOS H1 DENTRO DE UN SECTION*/
+section h1 {
+    font-weight: 400px;
+}

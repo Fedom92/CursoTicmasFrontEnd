@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form name="PRIMER FORMULARIO" action="" method="post">
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" required />
+
+        <label>Apellido</label>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido" />
+
+        <label>E-mail</label>
+        <input type="email" name="correo" placeholder="Ingrese su correo" />
+
+        <p>¿Como te vas a <strong>CONECTAR</strong> a la clase?</p>
+        <div>
+            <input type="radio" name="conexion" id="compu" value="compu" checked >
+            <label for="compu">Computadora</label>
+        </div>
+        <div>
+            <input type="radio" name="conexion" id="celu" value="celu" checked >
+            <label for="celu">Celular</label>
+        </div>
+
+        <p>¿Como queres que te llegue el resumen?</p>
+        <div>
+            <input type="checkbox" name="cuenta" id="carta" value="carta">
+            <label for="carta">Por correo postal</label>
+        </div>
+        <div>
+            <input type="checkbox" name="cuenta" id="mail" value="mail">
+            <label for="mail">Por correo electronico</label>
+        </div>
+
+<p>Campo Obligatorio para <span style="color: blue">PASSWORD</span> solamente:</p>
+        <label>Clave</label>
+        <input type="password" name="clave" placeholder="Ingrese su clave" minlength="8" required />
+
+        <input type="submit" value="Enviar" >
+    </form>
+</body>
+
+</html>
