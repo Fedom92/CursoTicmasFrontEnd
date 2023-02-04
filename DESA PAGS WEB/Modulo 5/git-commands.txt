@@ -22,3 +22,16 @@ PARA VER LOG DE GIT: git log
 
 PARA VER CAMBIOS REALIZADOS: git diff 'ruta de archivo' (SE PUEDE HACER CONTROL+ESPACIO PARA IR ESCRIBIENDO LA RUTA)
 
+PARA ECHAR CULPA XD (VER TODO EL CODIGO, QUIEN MODIFICO, HORARIOS, TODO): git blame 'nombreArchivo y extension'
+tambien muestra lo que no fue comiteado
+
+PARA VER EN UN LISTADO CORTO TODOS LOS COMMITS: git log --oneline
+
+PARA VER COMMIT ESPECIFICAMENTE: git show 'ID de comit'
+el id del comit se puede ver con git log
+
+
+
+
+
+
