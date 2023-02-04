@@ -31,7 +31,15 @@ PARA VER COMMIT ESPECIFICAMENTE: git show 'ID de comit'
 el id del comit se puede ver con git log
 
 
+SUBIR UN REPO LOCAL A ONLINE: (OTRA BRANCH)
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+git push -u origin master
 
-
-
+OTRO METODO A MAIN BRANCH:
+git branch -M main
+git remote add origin https://github.com/xxxxx/xxxxx.git
+git push -f -u origin main
 
